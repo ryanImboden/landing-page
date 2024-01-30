@@ -9,6 +9,7 @@ body {
 
 .body-one {
     background-color: #E5E7EB;
+    text-align: center;
 }
 .body-two {
     background-color: lightgrey;
@@ -17,10 +18,20 @@ body {
     font-style: italic;
     font-weight: thin;
 }
-
 .body-three {
     background-color: #3882F6;
     color: #F9FAF8;
+    display: flex;
+    
+}
+
+.information-container {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+}
+.caption {
+    max-width: 200px;
 }
 
 
