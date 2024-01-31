@@ -145,3 +145,6 @@ a {
     text-decoration: none;
     color: #E5E7EB;
 }
+a:hover {
+    color: #3882F6;
+}
