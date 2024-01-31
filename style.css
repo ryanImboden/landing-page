@@ -21,6 +21,7 @@ body {
     text-wrap: wrap;
 }
 .img1 {
+    margin-left: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -55,11 +56,10 @@ body {
     color: #F9FAF8;
     display: flex;
     padding: 60px 80px;
-
-    
 }
 
-.information-container {
+
+.places-to-visit {
     display: flex;
     justify-content: center;
     gap: 52px;
@@ -74,21 +74,17 @@ body {
     color: #F9FAF8;
     padding: 10px 80px 40px;
 }
-
 .footer {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 20px 80px
 }
-
-
 .header {
     font-size: 24px;
     display: flex;
     padding: 10px 80px;
     align-items: center;
-
 }
 
 
@@ -119,13 +115,20 @@ button:hover {
 }
 .button2 {
     border: 2px solid #E5E7EB;
-
     
+
+}
+.button2div {
+    margin-left: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 
 }
 .b3text {
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
 }
 
 
