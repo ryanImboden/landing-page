@@ -4,24 +4,58 @@ body {
     display: flex;
     flex-direction: column;
     background-color: black;
+    font-family: "PT Sans", Calibri, Tahoma, sans-serif;
 }
 
+.hero {
+    display: flex;
+    gap: 40px;
+    padding-top: 100px;
 
+}
+.hero1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    max-width: 400px;
+    text-wrap: wrap;
+}
+.img1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    flex-basis: 450px;
+    flex-shrink: 0;
+
+}
 .body-one {
     background-color: #E5E7EB;
-    text-align: center;
+    text-align: center;;
+    padding-top: 40px;
+    padding-bottom: 60px;
 }
 .body-two {
     background-color: lightgrey;
+    padding: 60px 80px;
+}
+.quote {
     font-size: 36px;
     color: #1F2937;
     font-style: italic;
     font-weight: thin;
 }
+.credit {
+    font-size: 24px;
+    text-align: right;
+    font-weight: bold;
+}
 .body-three {
     background-color: #3882F6;
     color: #F9FAF8;
     display: flex;
+    padding: 60px 80px;
+
     
 }
 
@@ -85,8 +119,14 @@ button:hover {
 }
 .button2 {
     border: 2px solid #E5E7EB;
-}
 
+    
+
+}
+.b3text {
+    display: flex;
+    flex-direction: column;
+}
 
 
 ul {
